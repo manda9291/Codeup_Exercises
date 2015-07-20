@@ -7,13 +7,22 @@ $compare = ['Tina', 'Dean', 'Mel', 'Amy', 'Michael'];
 /////////
 
 
-function isInArray($query, $compare){
-$result = array_search($compare, $names)
-	if($result != false){
-		return true;
-		}else{
-		return false;
-		}
-	};
+function combine_arrays($names , $compare){
+	if ($name == $compare) {
+		
+	}
 
-var_dump(isInArray);
+}
+
+
+
+//function isInArray($query, $compare){
+//$result = array_search($compare, $names)
+//	if($result != false){
+//		return true;
+//		}else{
+//		return false;
+//		}
+//	};
+//
+//var_dump(isInArray('Tina' , $names));
